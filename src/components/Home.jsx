@@ -11,7 +11,7 @@ function Home() {
     axios.get("http://localhost:3000/user")
     .then(res => setData(res.data))
     .catch(err => console.log(err))
-  })
+  },[])
 
   return (
     <div className="flex flex-col justify-center items-center bg-zinc-700 h-100">
