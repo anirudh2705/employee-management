@@ -7,9 +7,16 @@ function Create() {
     name: "",
     email: "",
     phone: ""
+    
   });
 
   const navigate = useNavigate()
+
+  // const randomId = () => {
+  //   const rId = Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000
+  //   rId = rId.toString()
+  //   return rId
+  // }
 
   const handleSubmit = (event) => {
     event.preventDefault()
@@ -17,8 +24,8 @@ function Create() {
     .then(res => {
       // console.log(res)
       alert("User Created Successfully")
-      
       navigate("/")
+      // setValues({...values, id: randomId})
     })
     .catch(err => console.log(err))
   }

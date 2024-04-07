@@ -44,7 +44,7 @@
       "id": "8",
       "name": "Michael Wilson",
       "username": "michael.wilson",
-      "email": "michael.wilson@example.com",
+      "email": "michael.wilson@example.scom",
       "phone": "567-890-1234",
       "website": "michaelwilson.com"
     },
@@ -71,22 +71,6 @@
       "email": "sophia.martinez@example.com",
       "phone": "012-345-6789",
       "website": "sophiamartinez.com"
-    },
-    {
-      "id": "14",
-      "name": "Liam Nguyen",
-      "username": "liam.nguyen",
-      "email": "liam.nguyen@example.com",
-      "phone": "123-456-7890",
-      "website": "liamnguyen.com"
-    },
-    {
-      "id": "15",
-      "name": "Ava Gonzalez",
-      "username": "ava.gonzalez",
-      "email": "ava.gonzalez@example.com",
-      "phone": "234-567-8901",
-      "website": "avagonzalez.com"
     }
   ]
 }
