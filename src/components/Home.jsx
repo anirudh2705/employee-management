@@ -20,7 +20,7 @@ function Home() {
     if(confirm){
       axios.delete('http://localhost:3000/user/' + id)
       .then(res => (
-        navigate('/')
+        window.location.reload()
       ))
       .catch((err) => {
         console.log(err)
@@ -30,7 +30,7 @@ function Home() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center bg-zinc-700 h-100">
+    <div className="flex flex-col justify-center items-center bg-zinc-700 h-screen">
       <h1 className="text-neutral-50 text-4xl my-4">List of Users</h1>
       <div className="w-auto rounded bg-white border shadow p-4 my-6">
         <div className="flex justify-end px-5 text-blue-700 ">
