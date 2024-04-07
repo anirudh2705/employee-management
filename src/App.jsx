@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './components/Home';
 import Update from './components/Update';
 import Read from './components/Read';
-import Create from './components/Create.jsx';
+import Create from './components/Create.Jsx';
 
 
 function App() {
